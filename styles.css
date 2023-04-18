@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.maze {
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+    height: 320px;
+    border: 2px solid #222;
+    background-color: #fff;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+.visited {
+    background-color: lightblue;
+}
+.start {
+    background-color: red;
+}
+.goal {
+    background-color: green;
+}
+.wall {
+    background-color: #222;
+}
+.coin {
+    background-color: yellow;
+}
+.player {
+    background-color: blue;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    width: 320px;
+}
+
+.timer {
+    font-size: 1.2em;
+}
+.coins {
+    font-size: 1.2em;
+}
+.try-again {
+    font-size: 1em;
+    padding: 5px 10px;
+    background-color: #00f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
